@@ -1,0 +1,65 @@
+#container{
+	border : 5px solid red; 
+	height : auto;
+    margin: auto;
+	background-image: url(https://prodigalthought.files.wordpress.com/2017/12/stack-of-books.jpg) ;
+	border: 3px solid #73AD21;
+    padding: 10px;
+}
+#content{
+	width : 79%;
+	border-width : 5px;
+	float : right;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	margin-right:70px;
+}
+#main{
+	font-family: 'Indie Flower', cursive;
+	float : left;
+	width :150px;
+	font-size: 30px;
+	margin-left : 50px;
+}
+#header{
+	font-family: 'Shrikhand', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: hsla(229, 94%, 49%, 0.699);
+	height: auto;
+}
+#footer{
+	clear: both;
+	font-size:20px;
+	text-align: right;
+	font-family: 'Roboto Mono', monospace;
+}
+img{
+	width: 500px;
+	height: 200px;
+}
+a{
+	text-decoration: none;
+	color: rgb(8, 247, 8);
+}
+fieldset{
+    width: auto;
+    font-size: 24px;
+	margin-left: 200px;
+	border: 2px solid gray;
+	
+}
+table,td,tr{
+	font-size: 24px;
+	padding: 10px;
+	border-radius: 15px;
+	display: block;
+}
+input{
+    font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+	.left, .main, .right {
+	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+  }

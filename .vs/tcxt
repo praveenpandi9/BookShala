@@ -1,0 +1,8 @@
+    User name : <input id = "username" onblur = "validun()" >
+                    <p id ="usrpara">
+                        
+                    </p><br>
+                    Password : <input id ="passwrd" onblur="validpswd()">
+                    <p>
+                        
+                    </p>

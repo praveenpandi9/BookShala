@@ -1,0 +1,49 @@
+#header{
+text-align : center;
+	background-color: gray;
+}
+#container{
+	width : 1500px;
+	margin : auto;
+	background-image :  url("giphy9.gif");
+	background-position : bottom;
+	background-repeat: no-repeat;
+	border : 5px solid red;
+	cell-padding :5px;	
+	height : 800px;
+	font-family: 'Gaegu', cursive;;
+    }
+#main{
+	border:5px;
+    background-color: red ;
+	float:right;
+	width:500px;
+	margin:0;
+	background-color: #5377DB;
+	border : 3px solid black;
+	cell-padding :50px;	
+}
+h1{
+  color : red;
+ font-family: 'Galada', cursive;
+}	
+body{
+	background: #0000200;
+	color : white;
+	font-size : 20px;
+}
+#footer{
+	text-align : left;	
+	clear :both;
+}
+ul{
+	list-style-type: none;
+}
+
+#links{
+	width : 150px;
+	float:left;
+	background-color: orange;
+	height : auto;
+
+}

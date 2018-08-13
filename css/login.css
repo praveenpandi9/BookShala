@@ -1,0 +1,70 @@
+#container{
+	border : 5px solid red; 
+	height : auto;
+    margin: auto;
+	width: 1000px;
+    border: 3px solid #73AD21;
+	padding: 10px;
+	background-image: url(https://prodigalthought.files.wordpress.com/2017/12/stack-of-books.jpg);
+}
+#content {
+	background-image: url(https://prodigalthought.files.wordpress.com/2017/12/stack-of-books.jpg) ;
+    width: auto;	
+    float: right;
+    font-family: "Lobster",cursive;
+    font-size: 30px;
+    margin-right: 288px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#main{
+	font-family: 'Indie Flower', cursive;
+	float : left;
+	width :150px;
+	font-size: 30px;
+	margin-left : 50px;
+}
+#header{
+	font-family: 'Shrikhand', cursive;
+	font-size: 40px;
+	text-align: center;
+	color:orange;
+	height: auto;
+}
+#footer{
+	clear: both;
+	font-size:20px;
+	text-align: right;
+	font-family: 'Roboto Mono', monospace;
+}
+img{
+	width: 500px;
+	height: 200px;
+}
+a{
+	text-decoration: none;
+	color: rgb(8, 247, 8);
+}
+#usrpara,#pswdpara{
+		font-size: 18px;
+		background-color: grey;
+		border-radius: 9x;
+}
+table,tr,td{
+	clear: both;
+	font-size: 24px;
+	padding: 10px;
+	border-spacing: 10px;
+	empty-cells: hide;
+}
+input{
+	line-height: 24px;
+	font-size: 18px;
+}
+#sub {
+    margin-left: 29px;
+    width: 362px;
+    border-radius: 6px;
+    font-size: 28px;
+    height: 46px;
+}

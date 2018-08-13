@@ -1,0 +1,54 @@
+<html>
+  <head>
+  <title>my web page</title>
+  <link rel="stylesheet" type="text/css" href="../css/register.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+  <body>
+	<div id = "container">
+	<div id = "header">
+	<img src = "../images/book.jpg">
+		<h1>BOOKSHALA </h1>
+	</div>
+	<div id ="main">
+		<p></p>
+	 <a href="index.html">Home</a><br>
+	 <a href="catalogue.html" target ="_blank">Catalogue</a><br>
+	 <a href="login.html">login</a><br>
+	 <a href="register.html">register</a><br>
+	 <a href="contactus.html">Contact us </a>
+	</div>
+	<div id ="content">
+        <form>
+					<table> <!--class="tab1"  -->
+						<tr>
+						<td>
+						<fieldset>
+						
+						<table  cellspacing="2" >
+						
+						<tr><td>Email :</td><td><input type=text id="emailid" style="border-radius: 15px" onblur="evalid()"></td></tr>
+						<tr><td id = "eidpara" style="color: red"></td></tr>
+						<tr><td>Password</td><td><input type=password id=pwd style="border-radius: 15px"></td></tr>
+						
+						<tr><td>Confirm Password</td><td><input type=password id=cpwd style="border-radius: 15px" onblur="pswdvalid()"></td></tr>
+						<tr><td id = "pwdpara" style="color: red"></td></tr>
+						<tr><td>Name</td><td><input type=text id=name style="border-radius: 15px"></td></tr>
+						
+						<tr><td>phone no</td><td><input type=text id=phno style="border-radius: 15px"></td></tr>
+		
+						<tr><td>-<input type=button col-span="2" value=submit style="border-radius: 15px;width :300px;" onclick="success();"></td></tr>
+						</table>
+						</fieldset>
+						</table>
+						<p>
+							<b>NOTE:</b> your email id id is used as user name
+						</p>
+						<script src= "../js/registervalid.js"></script>
+        </form>
+	</div>
+	<div id = "footer"><strong>&copy2018 praveen all rights reserved </strong>  </div>
+	</div>
+  </body>
+</html>
