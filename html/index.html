@@ -4,8 +4,8 @@
   <link rel="stylesheet" type="text/css" href="../css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Shrikhand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<script src="..\jquery\jquery-3.3.1.js"/>
-	<script src="..\jCycle\jcycle.js"></script>
+	<script src="../jquery/jquery-3.3.1.js"></script>
+	<script src="../jCycle/jcycle.js"></script>
   </head>
   <body>
 	<div id = "container">
@@ -31,7 +31,22 @@
 	</p>
 	
 	</div>
+	<center><h2 style="color: crimson;font-size: 32px ">catalogue</h2></center>
+	<div id ="slide" style="border-block-end-style:solid blue">
+		<img src="../images/a-terrible-country.jpg" style="height: 300px;width: 200px"/>
+		<img src="../images/how-are-you-going-to-save-yourself.jpg" style="height: 300px;width: 200px"/>
+		<img src="../images/how-to-be-famous.jpg" style="height: 300px;width: 200px"/>
+		<img src="../images/the-art-of-gatherine.jpg" style="height: 300px;width: 200px"/>
+		<img src="../images/warlight.jpg" style="height: 300px;width: 200px"/>
+	</div>
 	<div id = "footer"><strong>&copy2018 praveen all rights reserved </strong>  </div>
 	</div>
+	<script>
+		$('#slide').cycle({ 
+    fx:'all', 
+		timeout: 2000,
+		speed: 1000
+});
+	</script>
   </body>
 </html>
