@@ -1,4 +1,4 @@
-# BookShala - Your Personal Bookstore Project
+# BookShala - Your Personal Bookstore
 
 ## Overview
 BookShala is a personal project aimed at creating a custom online bookstore application inspired by popular e-commerce platforms like Amazon. The goal is to provide users with a seamless and intuitive platform for browsing, purchasing, and managing their favorite books.
